@@ -15,7 +15,7 @@ int[,] MultipleMatrix(int[,] matrix1, int[,] matrix2)
         {
             for (int k = 0; k < matrix1.GetLength(0); k++)
             {
-                resultMatrix[i, j] += matrix1[k, j] * matrix2[i, k];
+                resultMatrix[i, j]  +=matrix1[k, j] * matrix2[i, k];
             }
         }
     }
